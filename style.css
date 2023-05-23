@@ -1,0 +1,66 @@
+.d-block{
+        transform: rotateY(180deg);
+        width: 100%; /* Ensure the image fills the container */
+        height: 100  ; /* Preserve the image's aspect ratio */
+        object-fit: cover; /* Resize the image to cover the container */
+        object-position: left; /* Align the image to the left */
+        position: relative;
+        ;
+      }
+.text-center{
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(0, 85, 255);
+    font-family: ;
+}
+.row{
+    display: inline-block;
+
+}
+.col{
+    margin: 30px;
+}
+.email{
+    width: auto;
+    margin: 50px;
+}
+.form-check{
+    margin: 50px;
+}
+
+    .write{
+        margin: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .buttox {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 30px;
+        cursor: pointer;
+        width: 300px;
+      }
+      .col-l-7{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+@media (max-width: 767px) {
+    .col{
+        margin: 10px;
+    }
+    .email{
+        width: auto;
+        margin: 20px;
+    }
+    .form-check{
+        margin: 20px;
+        
+    }
+    .write{
+        margin: 20px;
+    }
+}
